@@ -32,3 +32,19 @@ a {
   transition: 0.4s ease-in-out; }
   a:hover {
     color: coral; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333; }
+
+.btn-dark {
+  color: #fff;
+  background: #333; }
